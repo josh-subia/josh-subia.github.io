@@ -12,7 +12,7 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/JavaScript.png">
 
-##My Last Semester
+## My Last Semester
 
 It has been approximately one week since I was first introduced to JavaScript, and I am now approximately one week into my final semester as an undergraduate computer engineer student at the University of Hawaii at Manoa. I still find it astonishing that this is my first experience with JavaScript and that this semester will be the first time I will learn about web design. However, there is no better time to learn than the present.
 
