@@ -10,9 +10,7 @@
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "josh-subia", "url": "http://github.com/josh-subia" },
-      { "network": "linkedin", "username": "josh-subia", "url": "http://linkedin.com/in/josh-subia" },
-      { "network": "twitter", "username": "", "url": "" },
-      { "network": "instagram", "username": "", "url": "" }
+      { "network": "linkedin", "username": "josh-subia", "url": "http://linkedin.com/in/josh-subia" }
     ]
   },
   "interests": [
@@ -33,9 +31,9 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Engineering (expected Fall, 2022)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2018-09-01",
       "endDate": "Present",
       "courses": [
       ]
