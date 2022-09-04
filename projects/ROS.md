@@ -9,6 +9,7 @@ labels:
   - ROS
 summary: "Implemented Robot Operating System (ROS) with ArduPilot to Retrieve Sensor Data"
 ---
+<img class="img-fluid" src="../img/ROS.png">
 
 Robot Operating System (ROS) is a set of libraries and tools to help you build robot applications. ROS was installed onto a Raspberry Pi 4 and integrated with ArduPilot on a Kakute H7 flight controller to retreive onboard sensor data. 
 
