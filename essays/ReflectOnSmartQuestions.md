@@ -12,7 +12,7 @@ labels:
 
 The quote “there is no such thing as a dumb question” is as old as time. While I, for the most part, believe that there is no such thing as a dumb question, I do believe that there is such a thing as asking a question dumbly. While it is generally a good idea to obtain as much information from a question as possible, the way the question is asked may dictate the information you receive more than the question itself. In the essay [“How To Ask Questions the Smart Way”] by Eric Steven Raymond, it goes over where you should ask the question first, and then how you should be asking it in order to receive the best responses. It also goes over how you should not ask questions, and how you should react to certain answers that you have received. Following the guidelines written by Raymond is a good way to ensure that the question you are asking is as smart as possible and will return the most useful answers.
 
-<img width="400px" class="rounded float-start pe-4" src="..\img\e11-reflect-on-smart-questions\Smart-Questions-for-Managers-to-Lead-Better.jpg">
+<img width="350px" class="rounded float-start pe-4" src="..\img\e11-reflect-on-smart-questions\Smart-Questions-for-Managers-to-Lead-Better.jpg">
 
 ## Asking the Question Smartly
 
