@@ -7,7 +7,7 @@ date: 2022
 published: true
 labels:
   - ROS
-summary: "Implemented Robot Operating System (ROS) with ArduPilot to Retrieve Sensor Data"
+summary: "Implemented Robot Operating System (ROS) with ArduPilot on Kakute H7 Flight Controller to Retrieve Sensor Data"
 ---
 <img class="img-fluid" src="../img/ROS.png">
 
