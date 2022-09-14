@@ -13,7 +13,7 @@ labels:
 
 Let's go all the way back to when I first started getting interested in software engineering, at time = 0. It began in highschool when I began wondering how video games were created, how programs functioned, and what happenes underneath all that GUI. I was keen to learn how everything that appeared on my screen came about. The only problem was I had no idea where to begin. There were a few tutorials that I found on YouTube but after a few hours I was completely lost. I did not write a single code until college when I took EE160: Programming for Engineers.
 
-<img width="200px" class="rounded float-start pe-4" src="../img/this-is-fine.gif">
+<img width="400px" class="rounded float-start pe-4" src="../img/this-is-fine.gif">
 
 ## int time = currentTime();
 
