@@ -2,18 +2,20 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+title: "Flappy Bird 2"
+date: 2022
 published: false
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game I developed for ICS 313."
+  - Flappy Bird 2
+  - Unity
+  - Object Oriented Programming
+summary: "Flappy Bird with multiple difficulties and a life system"
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+
+Flappy Bird 2 is an endlass game I developed using C# in Unity. It includes multiple difficulty levels: easy, medium, hard, and infuriating, along with a life system. In the future I hope to implement many more features into the game 
 
 To give you a flavor of the game, here is an excerpt from one run:
 
