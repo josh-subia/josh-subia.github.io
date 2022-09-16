@@ -4,7 +4,7 @@ type: project
 image: img/cotton/cotton-square.png
 title: "Flappy Bird 2"
 date: 2022
-published: false
+published: true
 labels:
   - Flappy Bird 2
   - Unity
@@ -12,50 +12,13 @@ labels:
 summary: "Flappy Bird with multiple difficulties and a life system"
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/flappy-bird/FlappyBird.png">
 
 
 Flappy Bird 2 is an endlass game I developed using C# in Unity. It includes multiple difficulty levels: easy, medium, hard, and infuriating, along with a life system. In the future I hope to implement many more features into the game 
 
-To give you a flavor of the game, here is an excerpt from one run:
+<img class="img-fluid" src="../img/flappy-bird/NoPipes.png"> To implement the game, I first wanted to create the background, and the bird, along with the GUI. Then, I needed the bird to react to gravity and move upward slightly when the screen is tapped or the mouse right clicker. The next idea was to create an endless game by making the background move from right to left and then move another instance of the background back to the right. 
 
-<hr>
+<img class="img-fluid" src="../img/flappy-bird/Pipes.png"> The next task was to implement the pipes. These pipes would need to have hitboxes attached to them that would trigger the game to stop and bird to fall to its death. The pipes would also have to have a hitbox for the area between the pipes and slightly to the right of it that triggers an increment to the score. Every 50 points, an extra life would be added so that if you do hit the pipes, the game would restart but with your current score saved. What made implementing the pipes rather difficult was that it used the same scrolling function as the background so that it moved at the same speed, however, we do not want the pipes to reappear on the right side and come back into the screen along with the randomly generated pipes. To rectify this, I set the pipes to delete after it reaches a set position off-screen, so that it does not reappear on the right. 
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+<img class="img-fluid" src="../img/flappy-bird/difficulties.png"> <img class="img-fluid" src="../img/flappy-bird/WithPipes.png"> This is the end result. The game also implements multiple difficulties, where the space between the pipes would continually get smaller as the difficulty increases. This game was rather challenging to create because I had to do it alone, but with time and perseverance, I accomplished what I initially wanted to, with many more features hopefully to come in the future. 
