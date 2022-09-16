@@ -12,7 +12,7 @@ labels:
 summary: "Flappy Bird with multiple difficulties and a life system"
 ---
 
-<img align="left" height="300" class="img-fluid" src="../img/flappy-bird/NoPipes.png"> 
+<img align="left" height="200" class="img-fluid" src="../img/flappy-bird/NoPipes.png"> 
 To implement the game, I first wanted to create the background, and the bird, along with the GUI. Then, I needed the bird to react to gravity and move upward slightly when the screen is tapped or the mouse right clicker. The next idea was to create an endless game by making the background move from right to left and then move another instance of the background back to the right. 
 Flappy Bird 2 is an endlass game I developed using C# in Unity. It includes multiple difficulty levels: easy, medium, hard, and infuriating, along with a life system. In the future I hope to implement many more features into the game.
 <img align="right" height="300" class="img-fluid" src="../img/flappy-bird/Pipes.png">
