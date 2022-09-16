@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/uhdt/DroneTechnologies.png
+image: img/uhdt/DroneTechnologies2.png
 title: "University of Hawaii Drone Technologies"
 date: 2022
 published: true
@@ -14,5 +14,5 @@ summary: "Integrate Pathfinding Algorithm and Troubleshoot Hexatopter for AUVSI 
 ---
 
 # University of Hawaii Drone Technologies
-<img align ="left" width="300px" class="rounded float-start pe-4" src="../img/UHDT/DroneTechnologies.png">The University of Hawaii Drone Technologies, or UHDT, is a vertically integrated project designed for undergraduate students, specifically in the Department of Electrical and Computer Engineering, and Department of Mechanical Engineering, to partake in a student-run project to develop real-world skills. UHDT competes at an annual competition caleld the AUVSI SUAS Competition which seeks to mimic the conditions of search and rescue via autonomous unmanned vehicles.
+<img align ="left" width="300px" class="img-fluid" src="../img/UHDT/DroneTechnologies.png">The University of Hawaii Drone Technologies, or UHDT, is a vertically integrated project designed for undergraduate students, specifically in the Department of Electrical and Computer Engineering, and Department of Mechanical Engineering, to partake in a student-run project to develop real-world skills. UHDT competes at an annual competition caleld the AUVSI SUAS Competition which seeks to mimic the conditions of search and rescue via autonomous unmanned vehicles.
 
