@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/flappy-bird/FlappyBird.png
 title: "Flappy Bird 2"
 date: 2022
 published: true
