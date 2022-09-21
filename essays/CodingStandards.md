@@ -16,6 +16,7 @@ labels:
 
 ## Poor Code Written Well > Good Code Written Poorly
 
+<br/>
 
 ## ESLint with IntelliJ IDEA
 <img width="200px" class="rounded float-start pe-4" src="../img/e28-coding-standards/IntelliJ_IDEA_Icon.png">
