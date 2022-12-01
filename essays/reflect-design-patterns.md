@@ -4,7 +4,7 @@ type: essay
 title: "Design Patterns in Practice"
 # All dates must be YYYY-MM-DD format!
 date: 2022-12-01
-published: false
+published: true
 labels:
   - Software Engineering
   - Web Development
