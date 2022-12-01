@@ -144,6 +144,6 @@ The last main type of design pattern is the behavioral design pattern. Behaviora
 </table>
 
 ## Patterns in Practice
-
+When I first started looking into the different types of design patterns, I thought I did not utilize any of them before. However, after reading more into what design patterns are, I realized that I have used design patterns, specifically creational design patterns. In my Computational Media Systems class, I remember trying to replicate the game 'Flappy Bird' while adding a few extra functionalities. Since the game was basically endless, I needed to find a way to create an infinite number of pipes, if needed. Instead, I was able to use the object pool method to recycle these pipes instead of creating and then destroying them by moving the pipes back to the front of the queue once they have gone behind the player. I also utilized the singleton instance in my game 'Flappy Bird 2.' There were other instances in that class where I had to create infinitely spawning enemies or instantiate bullets and utilized creational design patterns. Over the course of ICS 314, I was also introduced to several components of the Behavioral design patterns such as chain of responsibility, iterator, and observer. However, I have yet to utilize structural design patterns. 
 
 ## 
