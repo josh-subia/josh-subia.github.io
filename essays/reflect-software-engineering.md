@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "This is Just the Beginning"
 # All dates must be YYYY-MM-DD format!
-date: 2022-12140
+date: 2022-12-14
 published: true
 labels:
 - Software Engineering
