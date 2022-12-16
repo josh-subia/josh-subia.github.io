@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="ROS | Joshua Aaron Subia | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/josh-subia.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Joshua Aaron Subia | Professional Portfolio">
+    <meta property="og:url" content="https://josh-subia.github.io/projects/ROS.html">
+    <meta property="og:title" content="ROS | Joshua Aaron Subia | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/josh-subia.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>ROS | Joshua Aaron Subia | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Joshua Aaron Subia</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">ROS</h1>
+ <p><img class="img-fluid" src="../img/ROS.png" /></p>
+
+<p>Robot Operating System (ROS) is a set of libraries and tools to help you build robot applications. ROS was installed onto a Raspberry Pi 4 and integrated with ArduPilot on a Kakute H7 flight controller to retreive onboard sensor data.</p>
+
+<p>ROS utilizes “nodes” which may publish data to a “topic”. Other nodes may then subscribe to a topic to receive the data that was published to it. To communicate between ROS and the ArduPilot firmware, a MAVROS node was utilized. This allowed ArduPilot to send data to ROS and vice versa. Using the MAVROS node, I was then able to retrieve sensor data, specifically the Inertial Measurement Unit (IMU) data from the gyroscope, accelerometer, and magnetometers. IMUs are used to measure acceleration, angular velocity, and magnetic fields and can be used to determine motion, orientation, and heading of an object.</p>
+
+<p><img class="img-fluid" src="../img/ardupilot.png" /></p>
+
+<p>Using MAVROS, certain parameters and states of ArduPilot are able to be modified. One such parameters is the message data stream rate parameter. We are able to reduce the data stream rate of unnecessary messages, reducing the total bandwidth used. The vehicle may also be controlled autonomously by sending commands that mimic RC inputs and RC inputs may also be read and stored by ROS. In addition to mimicing RC inputs, waypoints may also be sent to the waypoint list for an autonomous flight.</p>
+
+<p>While i only have a few months of experience working with ROS integrated with ArduPilot, I have learned a lot and have come to appreceite how ROS can positively affect unmanned autonomous vehicles. I am eager to learn more about the ins and outs of ROS and maximize the potential that Robot Operating System can bring to the unmanned autnomous vehicle environment.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
