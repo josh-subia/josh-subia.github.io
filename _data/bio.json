@@ -21,7 +21,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C#","C++", "Javascript", "System Verilog" ]
     },
     {
       "name": "Operating Systems",
@@ -34,22 +34,21 @@
       "area": "Computer Engineering (expected Fall, 2022)",
       "studyType": "B.S.",
       "startDate": "2018-09-01",
-      "endDate": "Present",
+      "endDate": "2022-12-17",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Applied Research Laboratory at University of Hawaii",
+      "position": "Summer Intern",
+      "website": "arl.hawaii.edu",
+      "startDate": "2022-06-06",
+      "endDate": "2022-08-18",
+      "summary": "Worked with ROS and ArduPilot",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Researched and integrated ROS on Raspberry Pi 4 with ArduPilot on Kakute H7 flight controller to get sensor and RC input data", "Modified ArduPilot parameters to streamline message data rate and bandwidth"
       ]
     },
     {
