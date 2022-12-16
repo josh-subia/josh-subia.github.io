@@ -24,8 +24,8 @@
       "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Operating Systems",
+      "keywords": [ "Windows","MacOS", "Ubuntu", "Git/GitHub" ]
     }
   ],
   "education": [
