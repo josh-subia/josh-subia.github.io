@@ -43,51 +43,26 @@
     {
       "company": "Applied Research Laboratory at University of Hawaii",
       "position": "Summer Intern",
-      "website": "arl.hawaii.edu",
+      "website": "https://arl.hawaii.edu/",
       "startDate": "2022-06-06",
       "endDate": "2022-08-18",
       "summary": "Worked with ROS and ArduPilot",
       "highlights": [
         "Researched and integrated ROS on Raspberry Pi 4 with ArduPilot on Kakute H7 flight controller to get sensor and RC input data", "Modified ArduPilot parameters to streamline message data rate and bandwidth"
       ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
     }
   ],
-  "volunteer": [
+  "projects": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "University of Hawaii Drone Technologies",
+      "website": "https://me.hawaii.edu/design/uhdt/",
+      "position": "UAV Software Lead",
+      "startDate": "2021-01-01",
+      "endDate": "2022-12-17",
+      "summary": "Worked to ensure the autonomous flight capabilities of UHDT's UAS",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Built upon the current 2D A* pathfinding algorithm and integrated a 2.5D A* pathfinding algorithm",
+        "Developed Python scripts for autonomous flight at the 2023 AUVSI SUAS Competition"
       ]
     }
   ],
