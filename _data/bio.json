@@ -21,19 +21,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "C#", "Javascript", "Matlab", "System Verilog" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
     },
     {
-      "name": "Operating Systems",
-      "keywords": ["Windows 8.1/10", "MacOS", "Ubuntu"]
-    },
-    {
-      "name": "Software",
-      "keywords": ["Matlab", "Oracle VM VirtualBox", "Unity", "Adobe Photoshop/Premier Pro", "Microsoft Office"]
-    }
-    {
-      "name": "Other",
-      "keywords": ["PC Building"]
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
     }
   ],
   "education": [
@@ -42,21 +34,22 @@
       "area": "Computer Engineering (expected Fall, 2022)",
       "studyType": "B.S.",
       "startDate": "2018-09-01",
-      "endDate": "2022-12-17",
+      "endDate": "Present",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "Applied Research Laboratory at UH",
-      "position": "Summer Intern",
-      "website": "https://arl.hawaii.edu/",
-      "startDate": "2022-06-07",
-      "endDate": "2022-08-18",
-      "summary": "Worked with ROS and ArduPilot",
+      "company": "UH Manoa Board of Publications",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2015-08-01",
+      "endDate": "Present",
+      "summary": "Head of online presence for Ka Leo",
       "highlights": [
-        "Researched and integrated ROS on Raspberry Pi 4 with ArduPilot on Kakute H7 flight controller to get sensor and RC input data"
+        "Maintain, update, and oversee official college newspaper website",
+        "Drive, design and build student-community projects for UH Manoa"
       ]
     },
     {
